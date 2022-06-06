@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Nunito+Sans&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 100vh;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    text-align: center;
+}
+
+.countdown ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.countdown span{
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.button{
+    background-color: #000;
+    color: blanchedalmond;
+    cursor: pointer;
+    border: none;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: rgb(34, 34, 34);
+}
+
+#dateinput{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}

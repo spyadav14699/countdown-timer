@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="icon.png">
+    <title>Countdown Timer</title>
+</head>
+<body>
+   
+    <h1 id="title">Countdown Timer</h1>
+    <input type="datetime-local" id="dateinput">
+    <div class="countdown" id="countdown">
+        <ul>
+            <li><span id="days">0</span>Days</li>
+            <li><span id="hours">0</span>Hours</li>
+            <li><span id="minutes">0</span>Minutes</li>
+            <li><span id="seconds">0</span>Seconds</li>
+        </ul>
+    </div>
+    <button class="button" id="startButton">Start</button>
+    <button class="button" id="reloadButton" style="display: none;">Reload</button>
+        
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+<script src="./index.js"></script>
