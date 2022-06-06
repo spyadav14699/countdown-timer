@@ -9,7 +9,7 @@
 
 ## 🔴 Live Demo
 
-👉 **Preview**: https://emuel-vassallo.github.io/calculator/
+👉 **Preview**: https://deft-cannoli-117d01.netlify.app/
 
 ## 🖥️ Technologies
 
