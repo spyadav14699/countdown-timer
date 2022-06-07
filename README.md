@@ -9,8 +9,7 @@
 
 ## 🔴 Live Demo
 
-👉 **Preview**: https://deft-cannoli-117d01.netlify.app/
-
+👉 **Preview**: https://boisterous-tarsier-a79a3d.netlify.app/
 ## 🖥️ Technologies
 
 - HTML
